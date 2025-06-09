@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConectaSalud Nextipac</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <!-- 
+                Comentario Opcional: Si quieres un logo, puedes descomentar la siguiente línea 
+                y asegurarte de tener una imagen en la carpeta img/ con ese nombre.
+            -->
+            <!-- <img src="img/logo_conectasalud.png" alt="Logo ConectaSalud" class="logo"> -->
+            
+            <h1>ConectaSalud Nextipac</h1>
+            <p>Tu puente a la información de salud y bienestar</p>
+        </header>
+
+        <div class="chat-messages" id="chatMessages">
+            <!-- 
+                Los mensajes del chat, incluyendo el de bienvenida, 
+                serán añadidos dinámicamente por JavaScript (script.js).
+                Dejar esta sección vacía inicialmente es correcto.
+            -->
+        </div>
+
+        <footer class="chat-input-area">
+            <input type="text" id="userInput" placeholder="Escribe tu pregunta aquí..." aria-label="Entrada de mensaje del usuario">
+            <button id="sendButton" aria-label="Enviar mensaje">Enviar</button>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
